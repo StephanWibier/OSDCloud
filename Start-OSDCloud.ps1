@@ -42,6 +42,7 @@ if ((Get-Module -Name OSD -ListAvailable | `Sort-Object Version -Descending | Se
 #   As a backup, $Global:OSDCloudVariables is created with Get-Variable
 #===================================================================================================
 $Global:OSDCloudVariables = Get-Variable
+$Global:OSEdition = ""
 #===================================================================================================
 #   Build Variables
 #   Set these Variables to control the Build Process
